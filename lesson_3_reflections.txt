@@ -1,2 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
+
+-Everytime, it is a good idea having a remote repository, otherwise you could lose everything. It is important especially when you want a public repository, where people can interact with you project, and publish changes as well.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+-It would be a bada idea because you could have conflicts, work undone and so on. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+- Fork is a clone but is done directly in github, so you don't have to clone it in your computer before. A branch is a pointer in your project, so it is a different conecpt from clones or forks.
