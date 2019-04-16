@@ -10,14 +10,26 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+- Having the stagin area you can control which files you are modifying so you can keep a track and use git diff in order to show what are you doing. In this case, it would be a good idea not having too many files.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+From my point of view, always. If you are always developing in a new branch, you are always to be able to fix bugs in master. Then, for experimental areas it's useful, also for totally separated logical change.
+
 How do the diagrams help you visualize the branch structure?
+
+They help to understand better the concept of parent and shows clearly what is the path through the commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+It is a merge of the whole history of the two branches. We could represent it using branches as a component of git and related to commits.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+- Cons: Obviously, you are going to deal with conflicts often so it's a bit messy that everytime both branches touch the same file you have to be able to solve the problem.
+
+- Pros: You have all control about what's happening and solving the conflict manually avoids git messing the code.
 
